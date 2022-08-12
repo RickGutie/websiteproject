@@ -1,0 +1,173 @@
+/* General */
+
+.container{
+    width:80%;
+    margin: 0 auto;
+}
+
+
+*{
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Buttons formatting!*/
+
+.btn{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    background:#99549e;
+    width: 160px;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform ;
+    }
+
+.btn:hover, .btn:focus, .btn:active{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+/* Heading Formatting. */
+
+header{
+    background:#fff;
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/* Logo Formatting. */
+
+.logo{
+    float: left;
+    padding: 30px;
+}
+
+/* Nav Bar Formatting. */
+
+nav{
+    float: right;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li{
+    display: inline-block;
+    margin-left: 20px;
+    padding-top: 75px;
+    position:relative;
+}
+
+nav a{
+    color: #444;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+nav a:hover{
+    color: black;
+}
+
+nav a::before{
+    content: '';
+    display: block;
+    height: 5px;
+    width: 100%;
+    background-color: #99549e;
+    width: 0%;
+    transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before{
+    width:100%;
+}
+
+/* Arranging the services images next to each other. */
+
+.column{
+    float: left;
+    width: 33.33%;
+    padding: 4px;
+}
+
+
+.row::after{
+    content:"";
+    display:table;
+    clear: both;
+}
+
+/* General Text Formating. */
+
+h4 {
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #99549e;
+}
+
+.featured_services{
+    text-decoration: none;
+}
+
+h1{
+    color: #99549e;
+    text-decoration: none;
+    text-align: center;
+}
+
+h2{
+    color: #4cac7c;
+}
+
+p{
+    text-align: center;
+}
+
+.intro{
+    background-color: rgba(76,172,132,0.4);
+}
+
+
+/* Footer */
+
+footer p{
+    background-color:rgba(156, 83, 156, 0.5);
+}
+
